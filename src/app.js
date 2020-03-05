@@ -56,7 +56,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        helpMessage: 'You want help? Bitch, I need all the help I can get. We don\'t have enough to go around.',
+        helpMessage: 'We don\'t have enough to go around.',
         title: 'Help',
         name: 'Sam Eaton'
     });
